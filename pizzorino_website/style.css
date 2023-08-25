@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@500&family=Montserrat:ital@1&family=Oswald:wght@300&family=Playfair+Display:ital@1&display=swap");
+
+.logo img {
+  width: 140px;
+  height: 130px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(252, 14, 14);
+  background-image: url(https://img.freepik.com/free-photo/card-soft-template-paper-report_1258-167.jpg?w=826&t=st=1692986473~exp=1692987073~hmac=3927f9d130d17f65fb10320092107650043c2717a847c119cbc122dd894a6ccb);
+}
+
+header {
+  background-color: whitesmoke;
+  color: white;
+  padding: 5px;
+  background-image: url(https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28313.jpg?w=1060&t=st=1692984941~exp=1692985541~hmac=6edba9b5832f590af09900bc3943c198bfeeb81aaa65c1c433cfacf50ab4ac59);
+}
+
+section: {
+  background-color: whitesmoke;
+}
+
+section:nth-child {
+  background-color: whitesmoke;
+}
+.logo img {
+  height: 200px;
+  width: 200px;
+}
+img {
+  max-width: 300px;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  display: flex;
+}
+form {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  display: grid;
+  color: white;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-image: url(https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28313.jpg?w=1060&t=st=1692984941~exp=1692985541~hmac=6edba9b5832f590af09900bc3943c198bfeeb81aaa65c1c433cfacf50ab4ac59);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav-links {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-links ul {
+  display: flex;
+  flex: 1 1 40rem;
+}
+#logo {
+  flex: 1 1 40rem;
+}
+p {
+  text-align: center;
+  color: wheat;
+  font-size: x-large;
+}
+h2 {
+  text-align: center;
+  color: rgba(255, 255, 0, 0.747);
+  font-size: xx-large;
+}
